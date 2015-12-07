@@ -1,0 +1,186 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+body,
+form,
+fieldset,
+legend,
+input,
+select,
+textarea,
+button {
+  margin: 0;
+}
+html {
+  font-size: 100%;
+}
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 21px;
+  line-height: 1.3125rem;
+  color: #434343;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+.clear:before,
+.clear:after {
+  content: "";
+  display: table;
+}
+.clear:after {
+  clear: both;
+}
+.clear {
+  zoom: 1;
+}
+i,
+em,
+.em,
+dfn,
+blockquote,
+q {
+  font-style: italic;
+}
+a {
+  color: #27ae61;
+}
+a:hover {
+  text-decoration: none;
+}
+a:focus {
+  outline: thin dotted;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+p {
+  margin: 0 0 1.6em 0;
+}
+pre {
+  margin: 1em 0;
+}
+ul + p,
+ul + pre,
+ol + p,
+ol + pre {
+  margin-top: 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+mark {
+  background: #ff0;
+  color: #111;
+}
+audio:not([controls]) {
+  height: 0;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 0;
+}
+hr {
+  border: 0;
+  background: none;
+  outline: 0;
+  background-color: #ddd;
+  margin: 2em 0;
+  *margin: 1em 0;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 1px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: normal;
+  font-weight: normal;
+  margin: 0 0 0.33em 0;
+}
+h1,
+.h1 {
+  font-size: 40px;
+  font-size: 2.5rem;
+}
+h2,
+.h2 {
+  font-size: 32px;
+  font-size: 2rem;
+}
+h3,
+.h3 {
+  font-size: 26px;
+  font-size: 1.625rem;
+}
+h4,
+.h4 {
+  font-size: 20px;
+  font-size: 1.25rem;
+}
+h5,
+.h5 {
+  font-size: 18px;
+  font-size: 1.125rem;
+}
+h6,
+.h6 {
+  font-size: 16px;
+  font-size: 1rem;
+}
+.no-style-heading {
+  font-size: 100%;
+}

@@ -1,0 +1,16 @@
+code,
+kbd,
+pre,
+samp {
+  word-wrap: break-word;
+  font-family: 'courier new', monospace, serif;
+  font-size: 13px;
+  font-size: 0.8125rem;
+  line-height: normal;
+  font-weight: normal;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+code {
+  color: #111;
+}

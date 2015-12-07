@@ -1,0 +1,290 @@
+body {
+    counter-reset: section;
+}
+
+/* ==========================================
+*
+*       The Test
+*
+* =========================================== */
+
+#toolTest {
+
+    margin-top: 60px;
+    position: relative;
+
+}
+
+#toolTest .wrapper {
+    min-height: 550px;
+    background: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /*padding: 40px;*/
+    border-radius: 0.2857rem;
+}
+
+#toolTest .segment{
+    border-radius: 0.2857rem;
+    margin-bottom: 60px;
+    padding: 20px;
+}
+
+#toolTest h1 {
+
+    color: #00857F;
+    text-align: center;
+    font-size: 2.5rem;
+
+}
+
+#toolTest b {
+    font-size: 1.5rem;
+    text-align: center;
+    display: block;
+}
+
+#toolTest .inputField {
+    width: 210px;
+    text-align: center;
+    float: left;
+    margin: 1px;
+    cursor: pointer;
+    padding: 26px 5px;
+    min-height: 129px;
+}
+
+#toolTest .inputField .button {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+#toolTest .inputField .icon.huge {
+    margin: 20px 0;
+}
+
+#toolTest .ui.four.column.stackable {
+    margin: 0px auto;
+    width: 636px;
+}
+
+.blue   { background: #3B83C0; }
+.green  { background: #5BBD72; }
+.orange { background: #E07B53; }
+.pink   { background: #D9499A; }
+.purple { background: #564F8A; }
+.red    { background: #D95C5C; }
+.teal   { background: #00B5AD; }
+.yellow { background: #F2C61F; }
+
+/*#toolTest .ui.vertical.buttons{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}*/
+
+#toolTest label input {
+
+    display: none;
+
+}
+
+/*body {*/
+    /*background: #FA6973;*/
+/*}*/
+
+/*FA6973*/
+
+/* ==========================================
+*
+*       result
+*
+* =========================================== */
+
+#toolTest #output .framework:before {
+
+    counter-increment: section;
+    content: counter(section);
+    position: absolute;
+    left: -26px;
+    top: -16px;
+    font-size: 5rem;
+
+    color: white;
+
+}
+
+#toolTest #output .framework {
+    background: black;
+    border-radius: 0.2857rem;
+    width: 236px;
+    margin: 0 20px 20px 20px;
+    float: left;
+    padding: 20px;
+    position: relative;
+    min-height: 317px;
+}
+
+#toolTest #output .framework span {
+    color: #009FDA;
+}
+
+#toolTest #output .framework p {
+    color: white;
+}
+
+#toolTest #output .framework small {
+    color: gray;
+    display: block;
+}
+
+#toolTest #output .framework .title {
+    text-decoration: underline;
+}
+
+#toolTest #output .framework h3 {
+    color: white;
+}
+
+#toolTest #output .framework .downloadButton {
+    background: #74BF60;
+    margin: 20px 0 0 0;
+    padding: 20px;
+    text-align: center;
+    border-bottom-left-radius: 0.2857rem;
+    border-bottom-right-radius: 0.2857rem;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%
+}
+#toolTest #output .framework .downloadButton:hover{
+    color: black;
+    background: #68AB56;
+}
+
+#toolTest #output .moreDetails {
+    display: block;
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#toolTest .refreshButton, #toolTest .backButton{
+    float: left;
+}
+
+#toolTest .result .white {
+    color: white;
+}
+
+/* ==========================================
+*
+*       Details
+*
+* =========================================== */
+
+#details table.ui.table code {
+    display: inline-block;
+    overflow-x: auto;
+    font-size: 0.7em;
+    white-space: pre;
+    padding: 10px 0 20px;
+}
+
+#details h2 {
+    float: left;
+}
+
+#details .addFrame {
+    float: right;
+}
+
+#details table.ui.table td {
+    vertical-align: top;
+}
+
+.ui.modal .content .ui.button {
+    margin-bottom: 5px;
+}
+
+#details ul {
+    padding-left: 16px;
+}
+
+#details .countFrame5 code { width: 121px; }
+#details .countFrame4 code { width: 146px; }
+#details .countFrame3 code { width: 207px; }
+#details .countFrame2 code { width: 321px; }
+#details .countFrame1 code { width: 650px; }
+
+#details .countFrame1 .removeFrame { display: none; }
+
+/* ==========================================
+*
+*       Homepage
+*
+* =========================================== */
+
+#homepage {
+    padding-top: 60px;
+}
+
+#homepage img {
+    margin:50px auto 0;
+    display: block;
+    width: 310px;
+}
+
+#homepage .massive.button {
+    margin: 0 0 70px 0;
+}
+
+#homepage h1{
+    font-size: 2.6em;
+    display: none;
+}
+
+#homepage .blockquote{
+    font-size: 2rem;
+}
+
+#homepage {
+    height: 100%;
+}
+
+#homepage .button {
+    margin-bottom: 10px;
+}
+
+/*
+.backgroundImg {
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top:0px;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index:-1;
+}*/
+
+/* ==========================================
+*
+*       Tutorials
+*
+* =========================================== */
+
+#tutorials .alignment{
+    text-align: center;
+}
